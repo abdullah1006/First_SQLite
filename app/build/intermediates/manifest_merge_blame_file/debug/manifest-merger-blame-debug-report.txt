@@ -1,0 +1,72 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.firstsqlite"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/abdullah/Project/AndroidStudioProjects/FirstSQLite/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/home/abdullah/Project/AndroidStudioProjects/FirstSQLite/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/home/abdullah/Project/AndroidStudioProjects/FirstSQLite/app/src/main/AndroidManifest.xml:5:5-31:19
+12        android:allowBackup="true"
+12-->/home/abdullah/Project/AndroidStudioProjects/FirstSQLite/app/src/main/AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.1.0] /home/abdullah/.gradle/caches/transforms-2/files-2.1/80f58724caaf330e74c3000cc6797977/core-1.1.0/AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->/home/abdullah/Project/AndroidStudioProjects/FirstSQLite/app/src/main/AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->/home/abdullah/Project/AndroidStudioProjects/FirstSQLite/app/src/main/AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->/home/abdullah/Project/AndroidStudioProjects/FirstSQLite/app/src/main/AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->/home/abdullah/Project/AndroidStudioProjects/FirstSQLite/app/src/main/AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/Theme.FirstSQLite" >
+20-->/home/abdullah/Project/AndroidStudioProjects/FirstSQLite/app/src/main/AndroidManifest.xml:11:9-49
+21        <activity
+21-->/home/abdullah/Project/AndroidStudioProjects/FirstSQLite/app/src/main/AndroidManifest.xml:12:9-13:77
+22            android:name="com.example.firstsqlite.MainActivity"
+22-->/home/abdullah/Project/AndroidStudioProjects/FirstSQLite/app/src/main/AndroidManifest.xml:12:19-47
+23            android:theme="@style/Theme.FirstSQLite.NoActionBar" />
+23-->/home/abdullah/Project/AndroidStudioProjects/FirstSQLite/app/src/main/AndroidManifest.xml:13:13-65
+24        <activity
+24-->/home/abdullah/Project/AndroidStudioProjects/FirstSQLite/app/src/main/AndroidManifest.xml:14:9-16:41
+25            android:name="com.example.firstsqlite.AddActivity"
+25-->/home/abdullah/Project/AndroidStudioProjects/FirstSQLite/app/src/main/AndroidManifest.xml:15:13-40
+26            android:label="" />
+26-->/home/abdullah/Project/AndroidStudioProjects/FirstSQLite/app/src/main/AndroidManifest.xml:16:13-29
+27        <!-- Splash Screen -->
+28        <activity
+28-->/home/abdullah/Project/AndroidStudioProjects/FirstSQLite/app/src/main/AndroidManifest.xml:18:9-27:20
+29            android:name="com.example.firstsqlite.Splash"
+29-->/home/abdullah/Project/AndroidStudioProjects/FirstSQLite/app/src/main/AndroidManifest.xml:19:13-35
+30            android:label="@string/app_name"
+30-->/home/abdullah/Project/AndroidStudioProjects/FirstSQLite/app/src/main/AndroidManifest.xml:20:13-45
+31            android:theme="@style/Theme.FirstSQLite.NoActionBar" >
+31-->/home/abdullah/Project/AndroidStudioProjects/FirstSQLite/app/src/main/AndroidManifest.xml:21:13-65
+32            <intent-filter>
+32-->/home/abdullah/Project/AndroidStudioProjects/FirstSQLite/app/src/main/AndroidManifest.xml:22:13-26:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->/home/abdullah/Project/AndroidStudioProjects/FirstSQLite/app/src/main/AndroidManifest.xml:23:17-69
+33-->/home/abdullah/Project/AndroidStudioProjects/FirstSQLite/app/src/main/AndroidManifest.xml:23:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->/home/abdullah/Project/AndroidStudioProjects/FirstSQLite/app/src/main/AndroidManifest.xml:25:17-77
+35-->/home/abdullah/Project/AndroidStudioProjects/FirstSQLite/app/src/main/AndroidManifest.xml:25:27-74
+36            </intent-filter>
+37        </activity>
+38
+39        <meta-data
+39-->/home/abdullah/Project/AndroidStudioProjects/FirstSQLite/app/src/main/AndroidManifest.xml:28:9-30:57
+40            android:name="preloaded_fonts"
+40-->/home/abdullah/Project/AndroidStudioProjects/FirstSQLite/app/src/main/AndroidManifest.xml:29:13-43
+41            android:resource="@array/preloaded_fonts" />
+41-->/home/abdullah/Project/AndroidStudioProjects/FirstSQLite/app/src/main/AndroidManifest.xml:30:13-54
+42    </application>
+43
+44</manifest>
